@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+.backg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 15, 30);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stars */
+.backg span {
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow:
+        0 0 80px rgb(255, 226, 226),
+        0 0 100px white;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Message */
+.message {
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Buttons layout */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Buttons style */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(187, 103, 212);
+}
+.hidden{
+    display: none;
+}
